@@ -21,8 +21,8 @@ include_once "../header.php";
 ?>
 
 <div class="row justify-content-center">
-    <div class="col-8 bg-info">
-        <h1 style="text-align: center;">welcom to users show</h1>
+    <div class="col-8">
+        <h1>welcom to users show</h1>
     </div>
 </div>
 
@@ -40,7 +40,7 @@ include_once "../header.php";
             print "<div class='alert alert-info'> you update user success</div>";
         }
         ?>
-        <table class="table table-bordered mt-1">
+        <table class="table mt-1">
             <thead class="btn-info">
                 <tr>
                     <th scope="col">#</th>

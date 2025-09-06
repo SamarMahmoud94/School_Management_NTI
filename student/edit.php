@@ -21,13 +21,13 @@ if(!isset($_SESSION['userName'])){
 ?>
 
         <div class="row justify-content-center">
-            <div class="col-6 bg-info">
-                <h1 style="text-align: center;">page edit student <?php print  $student['first_name'] ?></h1>
+            <div class="col-6">
+                <h1>page edit student <?php print  $student['first_name'] ?></h1>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-6">
-                <form method="POST" style="border-radius: 8px;padding: 20px;box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+                <form method="POST" class="form1">
                     <div class="mb-3">
                         <label class="form-label">First Name</label>
                         <input type="text" value="<?php print $student['first_name'] ?>" name='first_name' class="form-control">

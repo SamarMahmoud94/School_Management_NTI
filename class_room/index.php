@@ -20,8 +20,8 @@ if (!isset($_SESSION['userName'])) {
 ?>
 
 <div class="row justify-content-center">
-    <div class="col-8 bg-info">
-        <h1 style="text-align: center;">welcom to class room show</h1>
+    <div class="col-8">
+        <h1>welcom to class room show</h1>
     </div>
 </div>
 
@@ -39,8 +39,8 @@ if (!isset($_SESSION['userName'])) {
             print "<div class='alert alert-info'> you update class room success</div>";
         }
         ?>
-        <table class="table table-bordered mt-1">
-            <thead>
+        <table class="table mt-1">
+            <thead class="btn-info">
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Class Name</th>
