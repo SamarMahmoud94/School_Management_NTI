@@ -10,6 +10,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/school_managment_NTI/assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="/school_managment_NTI/assets/style/style.css">
+    <!-- <link rel="stylesheet" href="/assets/style/style.css"> -->
 </head>
 
 <body>
@@ -23,7 +25,7 @@ session_start();
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/school_managment_NTI">Home</a>
+                            <a class="nav-link" aria-current="page" href="/school_managment_NTI">Home</a>
                         </li>
                         <?php
                         if (isset($_SESSION['userName'])) {

@@ -18,15 +18,15 @@ if(isset($_POST['user_name']))
 }
 ?>
 <div class="row justify-content-center">
-    <div class="col-6 bg-info mb-2">
-        <h1 style="text-align: center;">Login in Site</h1>
+    <div class="col-6 mb-2">
+        <h1>Login in Site</h1>
     </div>
 </div>
 <div class="row justify-content-center">
     <div class="col-6 mt-2">
         
         
-        <form action="" method="POST" style="border-radius: 8px;padding: 20px;box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+        <form action="" method="POST" class="form1">
             <div class="m-3">
                 <label class="form-label">User Name</label>
                 <input type="text" class="form-control" name="user_name">

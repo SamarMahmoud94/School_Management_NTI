@@ -1,0 +1,148 @@
+/* تنسيق الفورم */
+.form1 {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-top: 20px;
+} 
+
+/* الفورم inputs */
+input.form-control {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 6px rgba(23,162,184,0.3);
+    outline: none;
+}
+
+/* الأزرار */
+.btn {
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+/* alert messages */
+.alert {
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* الجدول */
+.table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.table thead {
+    background: #17a2b8;
+    color: #fff;
+}
+
+.table td, 
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* تنسيق اللينكات */
+a {
+    text-decoration: none;
+    color: #17a2b8;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #138496;
+}
+
+button.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+h1 {
+    background-color: #17a2b8;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    color: white;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #dce1e1; /* اللون الأساسي */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* اللوجو (School Management / UserName) */
+.navbar-brand {
+    color: #080808;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* اللينكات */
+.navbar-nav .nav-link {
+    color: #080808;  /* أبيض */
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* hover effect */
+.navbar-nav .nav-link:hover
+{
+    background-color: #138496; /* أغمق شوية من الأزرق */
+    color: #fff;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #187a87;
+    color: #fff;
+}

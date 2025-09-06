@@ -21,13 +21,13 @@ if(!isset($_SESSION['userName'])){
 ?>
 
         <div class="row justify-content-center">
-            <div class="col-9 bg-info">
-                <h1 style="text-align: center;">welcom to teacher show</h1>
+            <div class="col-10">
+                <h1>welcom to teacher show</h1>
             </div>
         </div>
 
         <div class="row justify-content-center mt-5">
-            <div class="col-9">
+            <div class="col-10">
                 <a class="btn btn-success" href="\school_managment_NTI\teacher\add.php">Add New teacher</a>
                 <?php
                 if (isset($_GET['add']) && $_GET['add'] == "success") {
@@ -40,8 +40,8 @@ if(!isset($_SESSION['userName'])){
                     print "<div class='alert alert-info'> you update teacher success</div>";
                 }
                 ?>
-                <table class="table table-bordered mt-1">
-                    <thead>
+                <table class="table mt-1">
+                    <thead class="btn-info">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">First Name</th>

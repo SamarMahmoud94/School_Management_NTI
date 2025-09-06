@@ -5,7 +5,7 @@ include_once "./header.php";
 <div class="row justify-content-center mt-3">
     <div class="col-6 mb-2">
         <?php if (isset($_SESSION['userName'])) {
-            print "<h1 style='text-align: center;border-radius: 8px;padding: 10px;box-shadow: 0 3px 8px rgba(0,0,0,0.1);'>welcome " . $_SESSION['userName'] . "</h1>";
+            print "<h1>welcome " . $_SESSION['userName'] . "</h1>";
         }
         ?>
     </div>
@@ -40,7 +40,7 @@ include_once "./header.php";
             <div class="card-body">
                 <h5 class="card-title">Students</h5>
                 <p class="card-text">information about students.</p>
-                <a href="student/index.php" class="btn btn-primary">Go table students</a>
+                <a href="student/index.php" class="btn btn-info">Go table students</a>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@ include_once "./header.php";
             <div class="card-body">
                 <h5 class="card-title">Teachers</h5>
                 <p class="card-text">information about teachers.</p>
-                <a href="teacher/index.php" class="btn btn-primary">Go table teachers</a>
+                <a href="teacher/index.php" class="btn btn-info">Go table teachers</a>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@ include_once "./header.php";
             <div class="card-body">
                 <h5 class="card-title">class rooms</h5>
                 <p class="card-text">information about class rooms.</p>
-                <a href="class_room/index.php" class="btn btn-primary">Go table class room</a>
+                <a href="class_room/index.php" class="btn btn-info">Go table class room</a>
             </div>
         </div>
     </div>
