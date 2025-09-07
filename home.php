@@ -66,7 +66,31 @@ include_once "./header.php";
     </div>
 </div>
 
+<div class="row justify-content-center mb-3">
+<div class="card col-9"style="width: 60rem;border-radius: 8px;padding: 20px;box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+  <h5 class="card-header" style="color: white;text-align: center;background-color: #17a2b8;" >Last student</h5>
+  <div class="card-body">
+    <?php
+    if(isset($_COOKIE['lastStudent'])&&isset($_COOKIE['lastStudentLastName'])){
+        print "<b>Full Name : ".$_COOKIE['lastStudent']." ".$_COOKIE['lastStudentLastName']. "</b>";
+        print "<br>";
 
+    }
+    if(isset($_COOKIE['lastStudentEmail'])){
+        print "<b>Email : ".$_COOKIE['lastStudentEmail']. "</b>";
+        print "<br>";
+    }
+    if(isset($_COOKIE['lastStudentAge'])){
+        print "<b>Age : ".$_COOKIE['lastStudentAge']. "</b>";
+        print "<br><br>";
+    }
+    else print "";
+    ?>
+    <a href="student/add.php" class="btn btn-info">add more student</a>
+  </div>
+
+</div>
+</div>
 <?php
 include_once "./footer.php";
 ?>
