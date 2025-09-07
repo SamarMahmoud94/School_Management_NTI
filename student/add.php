@@ -4,6 +4,12 @@ include_once "../Connect.php";
 if (isset($_POST['first_name'])) {
     $objConnect = new Connect();
     if ($objConnect->isert($_POST, 'student_info')) {
+
+        setcookie("lastStudent", $_POST['first_name'], time() + (86400 * 7), '/');
+        setcookie("lastStudentLastName", $_POST['last_name'], time() + (86400 * 7), '/');
+        setcookie("lastStudentEmail", $_POST['email'], time() + (86400 * 7), '/');
+        setcookie("lastStudentAge", $_POST['age'], time() + (86400 * 7), '/');
+
         header('location:\school_managment_NTI\student\index.php?add=success');
         exit;
     }
